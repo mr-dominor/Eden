@@ -4,12 +4,13 @@ import Image from "next/image";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { MenuIcon } from "lucide-react";
+import { MotionDiv, MotionDivDown } from "../micro-components/motion-div";
 import SideBar from "./sidebar";
 const NavBar = () =>{
     const [hover,setHover] = useState(false);
     const [open,setOpen] = useState(false);
     return (
-        <nav className="p-4 flex h-24 ">
+            <nav className="p-4 flex h-24 ">
             <SideBar open={open} openChange={setOpen} />
             <div className="border-b-2 py-2 flex justify-between items-center border-gray-400 w-full mx-auto">
                 <div className="flex items-center">

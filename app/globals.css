@@ -133,3 +133,8 @@
 .bg-mypurple{
   color:var(--color-accessible-purple)
 }
+
+::-webkit-scrollbar{
+  width:0;
+  height: 0;
+}

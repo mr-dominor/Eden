@@ -20,11 +20,6 @@ const navlinks = {
     url: "/about",
     icon: InfoIcon,
   },
-  pricing: {
-    name: "Pricing",
-    url: "/pricing",
-    icon: DollarSignIcon,
-  },
   contact: {
     name: "Contact",
     url: "/contact",

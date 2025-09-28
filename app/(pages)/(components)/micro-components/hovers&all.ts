@@ -1,0 +1,1 @@
+export const hoverzoom = "cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-110";
