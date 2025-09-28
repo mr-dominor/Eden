@@ -32,7 +32,7 @@ const list = {
 }
 
     return(
-        <div className=" p-2 md:px-4 md:py-6 mx-auto">
+        <div className="p-4 md:px-4 md:py-6 overflow-hidden">
             <div className="text-center" data-aos="">
                 <h1 className="text-3xl md:text-5xl font-bold font-serif ">A Journey of Knowledge and Growth</h1>
             </div>

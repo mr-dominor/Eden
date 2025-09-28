@@ -5,7 +5,7 @@ import { hoverzoom } from "../micro-components/hovers&all";
 import Image from "next/image";
 const Page = () =>{
     return(
-        <div className="p-2 md:px-4 md:py-6 mx-auto ">
+        <div className="p-2 md:px-4 md:py-6 mx-auto overflow-hidden ">
             <div className="mx-auto flex flex-col items-center justify-center lg:flex-row max-w-full">
                 <div className="h-auto w-full md:w-auto z-10">
                     <SpringDown>

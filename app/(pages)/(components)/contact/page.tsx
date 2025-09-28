@@ -7,18 +7,11 @@ import { MotionDiv, MotionDivLeft, MotionDivRight } from "../micro-components/mo
 
 export default function EdenContact() {
   return (
-    <section className="max-w-6xl mx-auto p-6 lg:p-12">
+    <section className="max-w-6xl mx-auto p-6 lg:p-12 overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         {/* Left: Contact card + details */}
         <MotionDivLeft>
           <div className="flex items-start gap-4">
-            <div className="w-14 h-14 flex items-center justify-center rounded-xl bg-purple-200/60 ring-1 ring-purple-300">
-              {/* simple leaf svg */}
-              <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 21c7-4 10-11 18-18" stroke="#4c1d95" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M7 7c2 2 5 3 9 3" stroke="#7c3aed" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </div>
             <div>
               <h2 className="text-2xl font-semibold text-purple-950">Contact Eden School</h2>
               <p className="mt-1 text-sm text-purple-700">Warm, responsive, and child-centered — reach out to our admissions or general office.</p>
@@ -98,20 +91,6 @@ export default function EdenContact() {
             </form>
           </div>
 
-          {/* decorative floating plant */}
-          <div className="absolute -right-6 -bottom-6 opacity-90 select-none pointer-events-none">
-            <svg width="150" height="150" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="g1" x1="0" x2="1">
-                  <stop offset="0" stopColor="#E9D5FF" />
-                  <stop offset="1" stopColor="#C4B5FD" />
-                </linearGradient>
-              </defs>
-              <circle cx="100" cy="100" r="90" fill="url(#g1)" />
-              <path d="M60 120c15-25 45-35 65-25" stroke="#4c1d95" strokeWidth="4" strokeLinecap="round" />
-              <path d="M80 90c10-18 30-22 50-15" stroke="#7c3aed" strokeWidth="3" strokeLinecap="round" />
-            </svg>
-          </div>
         </MotionDivRight>
       </div>
 
