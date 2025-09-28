@@ -63,7 +63,7 @@ export default function EdenContact() {
         <MotionDivRight>
           <div className="rounded-2xl p-8 shadow-xl bg-white/80 backdrop-blur border border-purple-100">
             <h3 className="text-lg font-semibold text-purple-950">Send us a note</h3>
-            <p className="text-sm text-purple-700 mt-1">We'd love to hear from you — questions about admissions, visits, or our curriculum.</p>
+            <p className="text-sm text-purple-700 mt-1">We would love to hear from you — questions about admissions, visits, or our curriculum.</p>
 
             <form className="mt-6 grid gap-4">
               <input
